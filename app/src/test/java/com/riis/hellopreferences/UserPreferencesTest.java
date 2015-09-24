@@ -26,7 +26,7 @@ public class UserPreferencesTest {
     }
 
     @Test
-    public void downloadUrlTest_ReturnsTrue() {
+    public void sharedPreferencesTest_ReturnsTrue() {
         assertThat(tUserPreferences.getSharedPreferences(tActivity), is("true"));
     }
 }
